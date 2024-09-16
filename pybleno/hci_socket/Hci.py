@@ -55,7 +55,7 @@ class Hci:
         opcode = 0
 
         # debug('setting filter to: ' + filter.toString('hex'))
-        filter = struct.pack("<LLLH", typeMask, eventMask1, eventMask2, opcode)
+        filter = struct.pack("<LLLHxx", typeMask, eventMask1, eventMask2, opcode)
         self._socket.set_filter(filter)
 
     def setEventMask(self):
