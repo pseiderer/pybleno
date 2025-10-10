@@ -109,7 +109,7 @@ class BlenoBindings:
             self._gatt.maxMtu = 23
         elif (manufacturer == 93):
             # Realtek Semiconductor Corporation
-            self._gatt.maxMtu = 23
+            self._gatt.maxMtu = 128
 
     def onAdvertisingStart(self, error):
         self.emit('advertisingStart', [error])
