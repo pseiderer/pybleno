@@ -8,12 +8,14 @@ setup(
   #  - 'HCI: increase maxMtu to 128 for Realtek chips'
   # v0.11.3:
   #  - 'HCI: increase maxMtu to 128 for Intel chips'
-  version = '0.11.3',
+  # v0.11.4:
+  #  - 'Add the 'BLENO_HCI_DEVICE_ID' environment feature'
+  version = '0.11.4',
   description = 'A direct port of the Bleno bluetooth LE peripheral role library to Python2/3',
   author = 'Adam Langley',
   author_email = 'github.com@irisdesign.co.nz',
   url = 'https://github.com/Adam-Langley/pybleno', # use the URL to the github repo
-  download_url = 'https://github.com/pseiderer/pybleno/archive/refs/tags/v0.11.3.tar.gz', # I'll explain this in a second
+  download_url = 'https://github.com/pseiderer/pybleno/archive/refs/tags/v0.11.4.tar.gz', # I'll explain this in a second
   keywords = ['Bluetooth', 'Bluetooth Smart', 'BLE', 'Bluetooth Low Energy'], # arbitrary keywords
   classifiers=[
       'Programming Language :: Python :: 2.7',
